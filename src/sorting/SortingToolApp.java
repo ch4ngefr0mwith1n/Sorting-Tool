@@ -42,23 +42,6 @@ public class SortingToolApp {
                         System.out.println("No data type defined!");
                     }
                     break;
-                /*
-                case("-inputFile"):
-                    if (isNextArgumentOK(i)) {
-                        inputFile = arguments[i + 1];
-                    } else {
-                        System.out.println("No input file name defined!");
-                    }
-                    break;
-                case("-outputFile"):
-                    if (isNextArgumentOK(i)) {
-                        outputFile = arguments[i + 1];
-                    } else {
-                        System.out.println("No output file name defined!");
-                    }
-                    break;
-
-                 */
                 default:
                     if (argumentsList.get(i).startsWith("-")) {
                         System.out.printf("\"%s\" is not a valid parameter. It will be skipped.\n", argumentsList.get(i));
